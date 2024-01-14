@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
+       <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <div></div>
-    <h1></h1>
+ 
+
+   
+    <form class="registerForm">
+     
+        <label>amount</label>
+        <input type="text" name="amount" class="amount" />
+        <select name="exchange" class="exchange">
+            <option value="dollar"> dollar </option>
+            <option value="dinar"> dinar </option>
+            <option value="nis"> nis </option>
+        </select>
+        <p class="result"></p>
+        <input type="submit" value="convert" class="submit" />
+    </form>
     <script src="./index.js"></script>
 </body>
 </html>
